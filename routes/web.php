@@ -86,3 +86,7 @@ Route::controller(GoogleController::class)->group(function(){
 });
 
 Route::post('/timeout', [LobbyController::class, 'timeOut']);
+
+Route::post('/purchase', [ItemController::class, 'purchase'])->name('purchase');
+
+// Route::get('/purchaseNow', [ItemController::class, 'purchasenow']);

@@ -264,273 +264,10 @@
           
           </ul>
 
-          <a href="#" class="btn-link">
-            <span class="span">Explore More</span>
-
-            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-          </a>
 
         </div>
       </section>
       
-      <!-- 
-        - #UPCOM
-      -->
-
-      <section class="section upcom" aria-labelledby="upcom-label">
-        <div class="container">
-
-          <h2 class="headline-md section-title text-center" id="upcom-label">Upcoming Auction</h2>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="upcom-card card">
-
-                <div class="card-banner img-holder" style="--width: 500; --height: 500;">
-                  <img src="./assets/images/showcase-8.gif" width="500" height="500" loading="lazy"
-                    alt="Genuine Undead #3902" class="img-cover">
-
-                  <button class="btn btn-primary">
-                    <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
-                    
-                    <span class="span">View</span>
-                  </button>
-
-                  <div class="countdown">
-                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                    <span class="span">5d 04h 18m 04s</span>
-                  </div>
-                </div>
-
-                <div class="card-profile">
-                  <img src="./assets/images/avatar-8.jpg" width="32" height="32" loading="lazy" alt="StreetBoy profile"
-                    class="img">
-
-                  <a href="#" class="">@StreetBoy</a>
-                </div>
-
-                <h3 class="title-sm card-title text-center">
-                  <a href="#" class="">Coming Soon</a>
-
-                  <!-- <span class="">5d 4h 18m 4s</span> -->
-                </h3>
-
-                <div class="card-meta">
-
-                  <div>
-                    <p>Start From</p>
-
-                    <div class="card-price">
-                      <img src="./assets/images/money.svg" width="10" height="20" loading="lazy" alt="ethereum icon">
-
-                      <span class="span">29,55</span>
-                    </div>
-                  </div>
-
-                  <div>
-                    <!-- <p>Start From</p> -->
-
-                    <div class="card-price">
-                      <!-- <img src="./assets/images/money.svg" width="10" height="20" loading="lazy" alt="ethereum icon">
-
-                      <span class="span">29,55</span> -->
-                    </div>
-                    
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="upcom-card card">
-
-                <div class="card-banner img-holder" style="--width: 500; --height: 500;">
-                  <img src="./assets/images/showcase-2.jpg" width="500" height="500" loading="lazy"
-                    alt="Genuine Undead #3902" class="img-cover">
-
-                  <button class="btn btn-primary">
-                    <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
-                    
-                    <span class="span">View</span>
-                  </button>
-
-                  <div class="countdown">
-                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                    <span class="span">5d 04h 18m 04s</span>
-                  </div>
-                </div>
-
-                <div class="card-profile">
-                  <img src="./assets/images/avatar-8.jpg" width="32" height="32" loading="lazy" alt="StreetBoy profile"
-                    class="img">
-
-                  <a href="#" class="">@StreetBoy</a>
-                </div>
-
-                <h3 class="title-sm card-title text-center">
-                  <a href="#" class="">Coming Soon</a>
-
-                  <!-- <span class="">5d 4h 18m 4s</span> -->
-                </h3>
-
-                <div class="card-meta">
-
-                  <div>
-                    <p>Start From</p>
-
-                    <div class="card-price">
-                      <img src="./assets/images/money.svg" width="10" height="20" loading="lazy" alt="ethereum icon">
-
-                      <span class="span">29,55</span>
-                    </div>
-                  </div>
-
-                  <div>
-                    <!-- <p>Start From</p> -->
-
-                    <div class="card-price">
-                      <!-- <img src="./assets/images/money.svg" width="10" height="20" loading="lazy" alt="ethereum icon">
-
-                      <span class="span">29,55</span> -->
-                    </div>
-                    
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="upcom-card card">
-
-                <div class="card-banner img-holder" style="--width: 500; --height: 500;">
-                  <img src="./assets/images/showcase-4.jpg" width="500" height="500" loading="lazy"
-                    alt="Genuine Undead #3902" class="img-cover">
-
-                  <button class="btn btn-primary">
-                    <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
-                    
-                    <span class="span">View</span>
-                  </button>
-
-                  <div class="countdown">
-                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                    <span class="span">5d 04h 18m 04s</span>
-                  </div>
-                </div>
-
-                <div class="card-profile">
-                  <img src="./assets/images/avatar-8.jpg" width="32" height="32" loading="lazy" alt="StreetBoy profile"
-                    class="img">
-
-                  <a href="#" class="">@StreetBoy</a>
-                </div>
-
-                <h3 class="title-sm card-title text-center">
-                  <a href="#" class="">Coming Soon</a>
-
-                  <!-- <span class="">5d 4h 18m 4s</span> -->
-                </h3>
-
-                <div class="card-meta">
-
-                  <div>
-                    <p>Start From</p>
-
-                    <div class="card-price">
-                      <img src="./assets/images/money.svg" width="10" height="20" loading="lazy" alt="ethereum icon">
-
-                      <span class="span">29,55</span>
-                    </div>
-                  </div>
-
-                  <div>
-                    <!-- <p>Start From</p> -->
-
-                    <div class="card-price">
-                      <!-- <img src="./assets/images/money.svg" width="10" height="20" loading="lazy" alt="ethereum icon">
-
-                      <span class="span">29,55</span> -->
-                    </div>
-                    
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="upcom-card card">
-
-                <div class="card-banner img-holder" style="--width: 500; --height: 500;">
-                  <img src="./assets/images/avatar-6.gif" width="500" height="500" loading="lazy"
-                    alt="Genuine Undead #3902" class="img-cover">
-
-                  <button class="btn btn-primary">
-                    <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
-                    
-                    <span class="span">View</span>
-                  </button>
-
-                  <div class="countdown">
-                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                    <span class="span">5d 04h 18m 04s</span>
-                  </div>
-                </div>
-
-                <div class="card-profile">
-                  <img src="./assets/images/avatar-8.jpg" width="32" height="32" loading="lazy" alt="StreetBoy profile"
-                    class="img">
-
-                  <a href="#" class="">@StreetBoy</a>
-                </div>
-
-                <h3 class="title-sm card-title text-center">
-                  <a href="#" class="">Coming Soon</a>
-
-                  <!-- <span class="">5d 4h 18m 4s</span> -->
-                </h3>
-
-                <div class="card-meta">
-
-                  <div>
-                    <p>Start From</p>
-
-                    <div class="card-price">
-                      <img src="./assets/images/money.svg" width="10" height="20" loading="lazy" alt="ethereum icon">
-
-                      <span class="span">29,55</span>
-                    </div>
-                  </div>
-
-                  <div>
-                    <!-- <p>Start From</p> -->
-
-                    <div class="card-price">
-                      <!-- <img src="./assets/images/money.svg" width="10" height="20" loading="lazy" alt="ethereum icon">
-
-                      <span class="span">29,55</span> -->
-                    </div>
-                    
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            
-        </div>
-      </section>
 
 
     <!-- 
@@ -545,14 +282,15 @@
           </div>
 
           <div class="slider" data-slider>
-
+          
             <ul class="slider-container" data-slider-container>
-
+           
+            @foreach ($closedbarang as $row)
               <li class="slider-item">
                 <div class="collection-card card">
 
                   <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
-                    <img src="./assets/images/showcase-1.jpg" width="500" height="500" loading="lazy"
+                    <img src="{{ asset('/assets/img/'.$row->foto) }}" width="500" height="500" loading="lazy"
                       alt="Digital Collection" class="img-cover">
                   </figure>
 
@@ -566,178 +304,21 @@
                     </div>
 
                     <h3 class="title-sm card-title">
-                      <a href="#" class="">Genuine Undead #3902</a>
+                      <a href="#" class="">{{$row->preview_item}}</a>
                     </h3>
 
                     <p class="label-md card-author">
-                      by <a href="#" class="link">@CutieGirl</a>
+                      by <a href="#" class="link">{{ '@'.$row->user->username }}</a>
                     </p>
 
-                    <p class="card-text">Last Price $29,00</p>
+                    <p class="card-text">Last Price {{$row->price}}</p>
 
                   </div>
 
                 </div>
               </li>
-
-              <li class="slider-item">
-                <div class="collection-card card">
-
-                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
-                    <img src="./assets/images/showcase-2.jpg" width="500" height="500" loading="lazy"
-                      alt="GIF Collection" class="img-cover">
-                  </figure>
-
-                  <div class="card-content">
-
-                    <div class="card-profile">
-                      <img src="./assets/images/avatar-2.jpg" width="64" height="64" loading="lazy"
-                        alt="ButterFly profile">
-
-                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-                    </div>
-
-                <h3 class="title-sm card-title">
-                  <a href="#" class="">Probably A Label #1711</a>
-                </h3>
-
-                    <p class="label-md card-author">
-                      by <a href="#" class="link">@ButterFly</a>
-                    </p>
-
-                    <p class="card-text">Last Price $29,00</p>
-
-                  </div>
-
-                </div>
-              </li>
-
-              <li class="slider-item">
-                <div class="collection-card card">
-
-                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
-                    <img src="./assets/images/showcase-3.jpg" width="500" height="500" loading="lazy"
-                      alt="Sports Collection" class="img-cover">
-                  </figure>
-
-                  <div class="card-content">
-
-                    <div class="card-profile">
-                      <img src="./assets/images/avatar-3.jpg" width="64" height="64" loading="lazy"
-                        alt="NorseQueen profile">
-
-                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-                    </div>
-
-                    <h3 class="title-md card-title">
-                      <a href="#" class="link:hover">Probably A Label #650</a>
-                    </h3>
-
-                    <p class="label-md card-author">
-                      by <a href="#" class="link">@NorseQueen</a>
-                    </p>
-
-                    <p class="card-text">Last Price $29,00</p>
-
-                  </div>
-
-                </div>
-              </li>
-
-              <li class="slider-item">
-                <div class="collection-card card">
-
-                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
-                    <img src="./assets/images/showcase-4.jpg" width="500" height="500" loading="lazy"
-                      alt="Photography Collection" class="img-cover">
-                  </figure>
-
-                  <div class="card-content">
-
-                    <div class="card-profile">
-                      <img src="./assets/images/avatar-4.jpg" width="64" height="64" loading="lazy"
-                        alt="BigBull profile">
-
-                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-                    </div>
-
-                    <h3 class="title-md card-title">
-                      <a href="#" class="link:hover">Shibuya Scramble Punks</a>
-                    </h3>
-
-                    <p class="label-md card-author">
-                      by <a href="#" class="link">@BigBull</a>
-                    </p>
-
-                    <p class="card-text">Last Price $29,00</p>
-
-                  </div>
-
-                </div>
-              </li>
-
-              <li class="slider-item">
-                <div class="collection-card card">
-
-                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
-                    <img src="./assets/images/showcase-5.jpg" width="500" height="500" loading="lazy"
-                      alt="Illustrations Collection" class="img-cover">
-                  </figure>
-
-                  <div class="card-content">
-
-                    <div class="card-profile">
-                      <img src="./assets/images/avatar-5.jpg" width="64" height="64" loading="lazy" alt="Angel profile">
-
-                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-                    </div>
-
-                    <h3 class="title-md card-title">
-                      <a href="#" class="link:hover">Looki #0147</a>
-                    </h3>
-
-                    <p class="label-md card-author">
-                      by <a href="#" class="link">@Angel</a>
-                    </p>
-
-                    <p class="card-text">Last Price $29,00</p>
-
-                  </div>
-
-                </div>
-              </li>
-
-              <li class="slider-item">
-                <div class="collection-card card">
-
-                  <figure class="card-banner img-holder" style="--width: 500; --height: 500;">
-                    <img src="./assets/images/showcase-6.gif" width="500" height="500" loading="lazy"
-                      alt="Animations Collection" class="img-cover">
-                  </figure>
-
-                  <div class="card-content">
-
-                    <div class="card-profile">
-                      <img src="./assets/images/avatar-6.gif" width="64" height="64" loading="lazy"
-                        alt="CrazyAnyone profile">
-
-                      <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-                    </div>
-
-                    <h3 class="title-md card-title">
-                      <a href="#" class="link:hover">Poob #285</a>
-                    </h3>
-
-                    <p class="label-md card-author">
-                      by <a href="#" class="link">@CrazyAnyone</a>
-                    </p>
-
-                    <p class="card-text">Last Price $29,00</p>
-
-                  </div>
-
-                </div>
-              </li>
+              @endforeach
+        
 
             </ul>
 
@@ -785,7 +366,7 @@
         <ul class="footer-list">
 
           <li>
-            <p class="title-lg footer-list-title">Metalink</p>
+            <p class="title-lg footer-list-title">GRAPHEIN-LINK</p>
           </li>
 
           <li>

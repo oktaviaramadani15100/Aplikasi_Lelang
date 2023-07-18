@@ -226,7 +226,7 @@
     <ul class="footer-list">
 
         <li>
-        <p class="title-lg footer-list-title">Metalink</p>
+        <p class="title-lg footer-list-title">GRAPHEIN-LINK</p>
         </li>
 
         <li>

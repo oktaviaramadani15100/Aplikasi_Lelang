@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Barang;
+use App\Models\ClosedBarang;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -39,7 +40,7 @@ class ItemController extends Controller
             $data->foto = $request->file('foto')->getClientOriginalName();
             $data->save();
         }
-        return redirect('/market');
+        return redirect('/lobby');
     }
 
     //landing
@@ -91,4 +92,26 @@ class ItemController extends Controller
        return back();
     }
 
+
+    public function purchase(Request $request){
+        $barang = Barang::where('id', $request->id)->delete();
+        $data = Barang::where("status", 'live')->get();
+        $closedbarang = ClosedBarang::all();
+
+
+        $barang = new ClosedBarang();
+        // $barang->id = auth('id');
+        $barang->user_id = Auth::id();
+        $barang->id = $request->id;
+        $barang->preview_item = $request->preview_item;
+        $barang->price = $request->price;
+        $barang->minimum_bid = $request->minimum_bid;
+        $barang->title = $request->title;
+        $barang->foto = $request->foto;
+        $barang->deskrpsi = $request->deskrpsi;
+        $barang->save();
+
+        // dd($data);
+        return view('halaman.user', compact('data', compact('closedbarang')));
+    }
 }

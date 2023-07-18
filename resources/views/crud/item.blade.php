@@ -116,7 +116,35 @@
                 aria-describedby="emailHelp" name="deskrpsi" style="position: absolute;
                 width: 980px;height: 90px;left: 230px;top: 985px;background: #D9D9D9;border-radius: 5px;">
         </div>
-        <button type="submit" class="btn btn-primary" style="position: absolute; top: 1270px;width: 300px;height: 30px;left: 580px; ">Submit</button>
+        <div class="mb-5">
+            <label for="exampleInputEmail1" class="form-label" style="position: absolute;width: 119px;height: 30px;left: 230px;top: 1270px;font-family: 'Poppins';font-style: normal;font-weight: 700;font-size: 20px;
+            line-height: 30px;color: #888888;">Menit</label>
+            <input type="time" class="form-control" id="menit"
+                aria-describedby="emailHelp" style="position: absolute;
+                width: 100px;height: 50px;left: 230px;top: 1300px;background: #D9D9D9;border-radius: 5px;">
+        </div>
+        <div class="mb-5">
+            <label for="exampleInputEmail1" class="form-label" style="position: absolute;width: 119px;height: 30px;left: 590px;top: 1270px;font-family: 'Poppins';font-style: normal;font-weight: 700;font-size: 20px;
+            line-height: 30px;color: #888888;">Tanggal</label>
+            <input type="number" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp" id="tanggal" style="position: absolute;
+                width: 100px;height: 50px;left: 590px;top: 1300px;background: #D9D9D9;border-radius: 5px;">
+        </div>
+        <div class="mb-5">
+            <label for="exampleInputEmail1" class="form-label" style="position: absolute;width: 119px;height: 30px;left: 470px;top: 1270px;font-family: 'Poppins';font-style: normal;font-weight: 700;font-size: 20px;
+            line-height: 30px;color: #888888;">Bulan</label>
+            <input type="text" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp" id="bulan" style="position: absolute;
+                width: 100px;height: 50px;left: 470px;top: 1300px;background: #D9D9D9;border-radius: 5px;">
+        </div>
+        <div class="mb-5">
+            <label for="exampleInputEmail1" class="form-label" style="position: absolute;width: 119px;height: 30px;left: 350px;top: 1270px;font-family: 'Poppins';font-style: normal;font-weight: 700;font-size: 20px;
+            line-height: 30px;color: #888888;">Tahun</label>
+            <input type="number" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp" id="tahun" style="position: absolute;
+                width: 100px;height: 50px;left: 350px;top: 1300px;background: #D9D9D9;border-radius: 5px;">
+        </div>
+        <button type="submit" class="btn btn-primary" name="btnitem" style="position: absolute; top: 1500px;width: 300px;height: 30px;left: 580px; ">Submit</button>
     </form>
 
 
@@ -234,7 +262,7 @@
     <ul class="footer-list">
 
         <li>
-        <p class="title-lg footer-list-title">Metalink</p>
+        <p class="title-lg footer-list-title">GRAPHEIN-LINK</p>
         </li>
 
         <li>
@@ -366,6 +394,8 @@
 - custom js link
 -->
 <script src="./assets/js/script.js"></script>
+<script src="./assets/js/main.js"></script>
+
 
 <!-- 
 - ionicon link

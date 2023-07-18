@@ -170,7 +170,7 @@
       
                 <div class = "product-price">
                   <p class = "last-price">Price<span>{{$data->price}}</span></p>
-                  <p class = "new-price">Highest bid by John Biden<span>{{$data->minimum_bid}}</span></p>
+                  <p class = "new-price">Highest bid<span>{{$data->minimum_bid}}</span></p>
                 </div>
       
                 <div class = "product-detail">
@@ -188,7 +188,17 @@
                   </form>
                     Place A Bid <i class = "fas fa-shopping-cart"></i>
                   </button>
-                  <button type = "button" class = "btn">Purchase Now</button>
+                  <form action="/purchase" method="post">
+                  @csrf
+                  <input type="hidden" name="id" value="{{ $data->id }}">
+                    <input type="hidden" name="preview_item" value="{{ $data->preview_item }}">
+                    <input type="hidden" name="foto" value="{{ $data->foto }}">
+                    <input type="hidden" name="title" value="{{ $data->title }}">
+                    <input type="hidden" name="price" value="{{ $data->price }}">
+                    <input type="hidden" name="minimum_bid" value="{{ $data->minimum_bid }}">
+                    <input type="hidden" name="deskrpsi" value="{{ $data->deskrpsi }}">
+                    <button type = "submit" class = "btn">Purchase Now</button>
+                  </form>
                 </div>
       
                 <div class = "social-links">
@@ -215,7 +225,6 @@
 
     </section>
 
-
 <!-- 
 - #FOOTER
 -->
@@ -240,7 +249,7 @@
     <ul class="footer-list">
 
         <li>
-        <p class="title-lg footer-list-title">Metalink</p>
+        <p class="title-lg footer-list-title">GRAPHEIN-LINK</p>
         </li>
 
         <li>

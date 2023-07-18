@@ -1,6 +1,9 @@
 function lelang(token){
   // Set the date we're counting down to 
-  var tanggalTujuan = new Date("Feb 9, 2023 19:03:00").getTime();
+  
+  
+
+  var tanggalTujuan = new Date("march 11, 2023 09:30:00").getTime();
   var hari;
   var jam;
   var menit; 
@@ -38,27 +41,9 @@ function lelang(token){
       for(let i = 0;i < total;i++){
         // console.log(i);
         document.getElementsByClassName("demo")[i].innerHTML = "MAAF WAKTU HABIS"; 
-
-        if(document.getElementsByClassName("demo")[i].innerHTML == "MAAF WAKTU HABIS"){
-          id_barangs.push(id_barang[i])
-
-          $.ajax({
-            type: "GET",
-            url: "/timeout",
-            data: {
-              id : id_barangs,
-              _token: token
-            },
-            success: function(ress){
-              alert(ress)
-            }
-          })
-        }
       } 
     }
   
   }, 1000);
-
-  let id_barang = document.getElementsByName("id_barang")
 
 }

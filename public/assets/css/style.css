@@ -723,6 +723,7 @@ body {
 .footer-top {
   padding-block-start: calc(var(--section-padding) + 200px);
   border-block-end: 1px solid var(--white_a10);
+  margin-top: 20%;
 }
 
 .footer-top .container {

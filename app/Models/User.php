@@ -49,4 +49,9 @@ class User extends Authenticatable
     {
         return $this->hasMany(Barang::class);
     }
+
+    public function closedbarang()
+    {
+        return $this->hasMany(closedbarang::class);
+    }
 }
